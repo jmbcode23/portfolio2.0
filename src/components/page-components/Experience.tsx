@@ -7,7 +7,7 @@ import { ColourfulText } from "../ui/colourful-text";
 
 const Experience = () => {
     return (
-        <div className="pr-6 pl-6">
+        <section id="projects" className="pr-6 pl-6">
             <h1 className="text-center text-3xl md:text-4xl font-bold mt-12 mb-12">
                 <ColourfulText text="Projects and Work Experience" />
             </h1>
@@ -50,7 +50,7 @@ const Experience = () => {
                     </Button>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -8,7 +8,7 @@ const Hero = () => {
         window.open('/CV-Jonathan-Milolo-Beya.pdf', '_blank');
     };
     return (
-        <div id='about' className='flex flex-col items-center justify-center'>
+        <section id='about' className='flex flex-col items-center justify-center'>
             <Image
                 src="/profile.jpg"
                 alt="Jonathan Milolo Beya"
@@ -30,7 +30,7 @@ const Hero = () => {
                     position="right"
                 />
             </div>
-        </div>
+        </section>
     )
 }
 

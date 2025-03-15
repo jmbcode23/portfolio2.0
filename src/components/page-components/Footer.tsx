@@ -5,6 +5,10 @@ import MagicButton from "../ui/MagicButton";
 import Image from "next/image";
 
 const Footer = () => {
+    const getCurrentYear = () => {
+        const currentDate = new Date();
+        return currentDate.getFullYear();
+    }
     return (
         <footer className="w-full pt-20 pb-10" id="contact">
             {/* background grid */}
@@ -28,7 +32,7 @@ const Footer = () => {
             </div>
             <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
                 <p className="md:text-base text-sm md:font-normal font-light">
-                    Copyright © 2025 Jonathan Milolo Beya
+                    Copyright © {getCurrentYear()} Jonathan Milolo Beya
                 </p>
 
                 <div className="flex items-center md:gap-3 gap-6">
