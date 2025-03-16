@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import animationData from "@/data/confetti.json";
+// import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import Image from "next/image";
 
@@ -65,14 +65,14 @@ export const BentoGridItem = ({
         { tech: "Tailwindcss", className: techClassName }];
     const [copied, setCopied] = useState(false);
 
-    const defaultOptions = {
-        loop: copied,
-        autoplay: copied,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice",
-        },
-    };
+    // const defaultOptions = {
+    //     loop: copied,
+    //     autoplay: copied,
+    //     animationData: animationData,
+    //     rendererSettings: {
+    //         preserveAspectRatio: "xMidYMid slice",
+    //     },
+    // };
 
     const handleCopy = () => {
         const text = "jonathanmilolocode@gmail.com";

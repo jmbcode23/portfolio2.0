@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
-import { CiLinkedin } from "react-icons/ci";
+import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 import { FaPhone } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 
@@ -24,24 +24,24 @@ export function FloatingDockDemo() {
         {
             title: "Projects",
             icon: (
-                <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <HiOutlineClipboardDocumentList className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "#projects",
         },
         {
-            title: "LinkedIn",
+            title: "Skills",
             icon: (
-                <CiLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "#skills",
         },
-        {
-            title: "GitHub",
-            icon: (
-                <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#",
-        },
+        // {
+        //     title: "Hobbies",
+        //     icon: (
+        //         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        //     ),
+        //     href: "#hobbies",
+        // },
         {
             title: "Contact",
             icon: (
