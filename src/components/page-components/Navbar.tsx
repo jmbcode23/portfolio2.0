@@ -7,7 +7,7 @@ import { CgProfile } from "react-icons/cg";
 
 
 import {
-    IconBrandGithub,
+    // IconBrandGithub,
     IconTerminal2,
 } from "@tabler/icons-react";
 
